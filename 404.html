@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="robots" content="noindex, follow">
+  <meta name="theme-color" content="#315b78">
+
+  <title>Página no encontrada | Romina Ávila</title>
+
+  <style>
+    :root {
+      --blue-dark: #183143;
+      --blue: #0b68b2;
+      --blue-light: #f2f8fb;
+      --text: #60717d;
+      --white: #ffffff;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      min-height: 100vh;
+      margin: 0;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top right, #dceaf2, transparent 38%),
+        var(--blue-light);
+      font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    main {
+      width: min(100%, 620px);
+      padding: clamp(36px, 8vw, 70px);
+      background: var(--white);
+      border-radius: 28px;
+      box-shadow: 0 24px 70px rgba(32, 58, 76, 0.13);
+      text-align: center;
+    }
+
+    .error-code {
+      margin: 0 0 10px;
+      color: var(--blue);
+      font-size: clamp(4rem, 16vw, 7rem);
+      font-weight: 800;
+      line-height: 1;
+    }
+
+    h1 {
+      margin: 0 0 18px;
+      color: var(--blue-dark);
+      font-size: clamp(1.8rem, 6vw, 2.7rem);
+      line-height: 1.15;
+    }
+
+    p {
+      margin: 0 auto 30px;
+      max-width: 460px;
+      line-height: 1.7;
+    }
+
+    a {
+      min-height: 52px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 13px 24px;
+      color: var(--white);
+      background: var(--blue);
+      border-radius: 999px;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    a:hover {
+      background: var(--blue-dark);
+    }
+
+    a:focus-visible {
+      outline: 3px solid rgba(11, 104, 178, 0.35);
+      outline-offset: 4px;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <p class="error-code" aria-hidden="true">404</p>
+
+    <h1>Esta página no está disponible</h1>
+
+    <p>
+      Es posible que el enlace sea incorrecto o que la página haya cambiado de dirección.
+      Podés regresar al sitio principal de Romina Ávila.
+    </p>
+
+    <a href="/">Volver al inicio</a>
+  </main>
+</body>
+</html>
